@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["prettier"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:react/jsx-runtime",
+    "plugin:cypress/recommended"
+  ],
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "global-require": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-vars": "warn",
+    "multiline": true,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  }
+}

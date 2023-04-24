@@ -1,0 +1,10 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "django-html": "html",
+    "postcss": "css"
+  },
+  "cSpell.words": ["passvalue", "tanstack"]
+}
