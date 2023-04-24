@@ -15,6 +15,8 @@ Run the command "npm run dev" to start the local server.
 
 Open your browser at "http://localhost:5173" to view the running project.
 
+User default username:"username" password: "pass"
+
 Check the package.json file to see the list of installed dependencies.
 
 To run the tests for the project, use the command "npm run test".
